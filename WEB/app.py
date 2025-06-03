@@ -98,7 +98,7 @@ def load_user(user_id):
 # Decorador para requerir inicio de sesión
 
 def login_required(f):
-    @wraps(f)  # Esto es lo importante
+    @wraps(f)
     def decorated_function(*args, **kwargs):
         if 'usuario_id' not in session:
             flash('Por favor inicia sesión para acceder', 'warning')
