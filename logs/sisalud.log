@@ -1,0 +1,7 @@
+2025-06-02 22:31:03,936 INFO: SiSalud startup [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:28]
+2025-06-02 22:37:17,364 INFO: SiSalud startup [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:28]
+2025-06-02 22:37:19,355 INFO: SiSalud startup [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:28]
+2025-06-02 22:37:24,897 ERROR: Page not found: http://127.0.0.1:5000/static/img/logo.png [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:412]
+2025-06-02 22:37:43,087 ERROR: Page not found: http://127.0.0.1:5000/static/img/logo.png [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:412]
+2025-06-02 22:38:08,981 INFO: SiSalud startup [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:28]
+2025-06-02 22:38:24,727 INFO: SiSalud startup [in c:\Users\texte\Downloads\xd\WEB\WEB\app.py:28]

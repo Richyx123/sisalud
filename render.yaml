@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sisalud-app
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: MAIL_USERNAME
+        value: tu_correo@gmail.com
+      - key: MAIL_PASSWORD
+        value: tu_password_segura
+      - key: MAIL_DEFAULT_SENDER
+        value: tu_correo@gmail.com
