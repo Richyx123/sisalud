@@ -96,14 +96,16 @@ def load_user(user_id):
     return Usuario.query.get(int(user_id))
 
 # Decorador para requerir inicio de sesión
+
 def login_required(f):
-    @wraps(f)
+    @wraps(f)  # Esto es lo importante
     def decorated_function(*args, **kwargs):
         if 'usuario_id' not in session:
             flash('Por favor inicia sesión para acceder', 'warning')
             return redirect(url_for('login'))
         return f(*args, **kwargs)
     return decorated_function
+
 
 @app.route('/')
 @app.route('/inicio')
